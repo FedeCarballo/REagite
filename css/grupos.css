@@ -275,17 +275,21 @@
     }
 
 }
+@media screen and (min-width: 650px) and (max-width:950px){
+    .grupos__titulo__main{
+        font-size: 9rem !important;
+    }
+}
 
-
-@media screen and (max-width: 606px) {
+@media screen and (max-width: 649px) {
     .grupos__title {
-        padding: 0 4%;
+        padding: 0 4% !important;
     }
 
     .grupos__titulo__main {
-        font-size: 4rem;
-        line-height: 4rem;
-        margin-bottom: 8%;
+        font-size: 4rem !important;
+        line-height: 4rem !important;
+        margin-bottom: 8% !important;
     }
     
     .destacado-parrafo {

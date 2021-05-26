@@ -173,33 +173,33 @@
     align-items: center;
 }
 
-.footer__social {
+    .footer__social {
     display: flex;
     flex-direction: row;
     padding: 0 2%;
     margin: 0 2%;
 }
 
-.footer__nav {
+    .footer__nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.list-inline-item {
+    .list-inline-item {
     margin: 5% 0;
 }
 
-.icon__social {
+    .icon__social {
     margin: 10% 0.8rem;
 }
 
-.logo__footer {
+    .logo__footer {
     margin: 20% 0;
 }
 
-footer {
+    footer {
     z-index: 100;
 }
     /* TERMINA FOOTER */

@@ -81,6 +81,44 @@ img {
     padding-right: 2%;
 }
 
+@media screen and (min-width: 650px) and (max-width:950px){
+    .home__titulo__main{
+        font-size: 8rem !important;
+        line-height: 8rem;
+    }
+    .home__subtitle__main{
+        font-size: 7rem !important;
+        line-height: 8rem;
+
+    }
+    .re-doblecolor{
+        width: 21%;
+        margin-left: 10px;
+    }
+    .re-arrow{
+        width: 29% !important;
+        margin-right: 2%;
+    }
+    .estrellita-fucsia {
+        width: 10% !important;
+    }
+    .home__orange__title{
+        font-size: 8rem !important;
+        line-height: 8rem;
+    }
+    .home__orange__subtitle{
+        font-size: 8rem !important;
+        line-height: 8rem;
+    }
+    .home__slogan{
+        font-size: 3rem;
+        padding-left: 2%;
+    }
+    .footer__item{
+        font-size: 2rem !important;
+    }
+}
+
 @media screen and (max-width: 650px) {
     
     .home__titulo__main{
@@ -105,14 +143,19 @@ img {
     }
     .home__orange__title{
         font-size: 4.6rem !important;
-        line-height: 5rem;
+        line-height: 7rem;
     }
     .home__orange__subtitle{
         font-size: 4rem !important;
-        line-height: 5rem;
+        line-height: 7rem;
     }
     .home__slogan{
-        font-size: 2rem;
+        font-size: 2.1rem;
+        line-height: 3rem;
         padding-left: 2%;
+
+    }
+    .footer__item{
+        font-size: 1.6rem !important;
     }
 }
