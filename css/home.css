@@ -11,7 +11,7 @@ body {
 
 .home__titulo__main {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 23.4vh;
     color: #0098a6;
     line-height: 23.4rem;
     text-transform: uppercase;
@@ -19,7 +19,7 @@ body {
 
 .home__subtitle__main {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 23.4vh;
     color: #F9AF4C;
     line-height: 23.4rem;
     margin-bottom: 8%;
@@ -39,35 +39,35 @@ img {
 /* CUADRO NARANJA HOME */
 
 .home__contain {
-    max-height: 950px;
     background-color: #F9AF4C;
     padding-top: 3%;
+    padding-bottom: 3%;
     text-transform: uppercase;
 }
 
 .home__contain__orange {
-    max-width: 1920px;
-    max-height: 100vh;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .home__orange__title {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 23vh;
     color: #fff;
-    line-height: 23.4rem;
+    line-height: 23rem;
     text-transform: uppercase;
 }
 
 .home__orange__subtitle {
     font-family: 'Changa One', cursive;
-    font-size: 23.4rem;
+    font-size: 23vh;
     color: #0098A6;
-    line-height: 23.4rem;
+    line-height: 23rem;
     text-transform: uppercase;
 }
 
 .home__slogan {
-    font-size: 5rem;
+    font-size: 5vh;
     color: #424242;
     padding-left: 27%;
     text-transform: uppercase;
@@ -80,50 +80,92 @@ img {
 .estrellita-fucsia-three {
     padding-right: 2%;
 }
-
-@media screen and (min-width: 650px) and (max-width:950px){
-    .home__titulo__main{
-        font-size: 8rem !important;
-        line-height: 8rem;
+/* responsive  */
+@media screen and (max-width: 1019px) {
+    .home__titulo__main {
+        font-size: 15vh ;
+        line-height: 15rem;
     }
     .home__subtitle__main{
-        font-size: 7rem !important;
-        line-height: 8rem;
-
+        font-size: 15vh;
+        line-height: 15rem;
     }
     .re-doblecolor{
-        width: 21%;
-        margin-left: 10px;
+        width: 23% ;
+        margin-left: 15px;
     }
     .re-arrow{
-        width: 29% !important;
-        margin-right: 2%;
+        width: 30%;
     }
-    .estrellita-fucsia {
-        width: 10% !important;
+    .estrellita-fucsia{
+        width: 10vh;
     }
     .home__orange__title{
-        font-size: 8rem !important;
-        line-height: 8rem;
+        font-size: 15vh !important;
+        line-height: 15rem;
     }
     .home__orange__subtitle{
-        font-size: 8rem !important;
-        line-height: 8rem;
+        font-size: 15vh !important;
+        line-height: 15rem;
     }
     .home__slogan{
         font-size: 3rem;
-        padding-left: 2%;
+        line-height: 3.5rem;
+        padding-left: 1%;
+
     }
     .footer__item{
-        font-size: 2rem !important;
+        font-size: 3rem !important;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    .home__titulo__main{
+        font-size: 10vh !important;
+        line-height: 10rem;
+    }
+    .home__subtitle__main{
+        font-size: 8rem !important;
+        line-height: 8rem;
+    }
+    .re-doblecolor{
+        width: 22%;
+        margin-left: 15px;
+    }
+    .re-arrow{
+        width: 30% !important;
+        margin-right: 2%;
+    }
+    .estrellita-fucsia {
+        width: 8vh !important;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .home__orange__title{
+        font-size: 7rem !important;
+        line-height: 7rem;
+    }
+    .home__orange__subtitle{
+        font-size: 7rem !important;
+        line-height: 7rem;
+    }
+    .home__slogan{
+        font-size: 2.1rem;
+        line-height: 3rem;
+        padding-left: 2%;
+
+    }
+    .footer__item{
+        font-size: 2.5rem !important;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 649px) {
     
     .home__titulo__main{
-        font-size: 4rem !important;
-        line-height: 5rem;
+        font-size: 8vh !important;
+        line-height: 8vh;
     }
     .home__subtitle__main{
         font-size: 4rem !important;
@@ -159,3 +201,4 @@ img {
         font-size: 1.6rem !important;
     }
 }
+/* fin del responsive */
