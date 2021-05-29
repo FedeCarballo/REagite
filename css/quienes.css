@@ -102,23 +102,41 @@
     font-size: 2.8rem;
     color: #000;
 }
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) {
     .quienes__titulo__saludo{
-        font-size: 10rem;
+        font-size: 16vh;
     }
     .quienes__titulo__nombres{
-        font-size: 5.6rem;
+        font-size: 9vh;
         margin-bottom: 10px;
     }
     .estrellita-fucsia {
-        width: 8vh;
+        width: 12vh;
+    }
+    .quienes__intro__comilla {
+        font-size: 5.8rem;
+    }
+    .quienes__intro__frase {
+        font-size: 5.8rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    .quienes__titulo__saludo{
+        font-size: 10vh;
+    }
+    .quienes__titulo__nombres{
+        font-size: 5.6vh;
+        margin-bottom: 10px;
+    }
+    .estrellita-fucsia {
+        width: 10vh;
     }
     .destacado-imagen{
         width: 100%;
     }
     .quienes__titulo__subtitulo {
-        font-size: 3.5rem;
+        font-size: 4vh;
     }
     .quienes__intro__comilla {
         font-size: 5.8rem;
@@ -147,5 +165,8 @@
     }
     .quienes__agitadoras__descripcion{
         font-size: 1.8rem !important;
+    }
+    .footer__item{
+        font-size: 1.6rem !important;
     }
 }
